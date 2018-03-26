@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amit.easypronounce"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".SPLASH"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+        <activity
+            android:name=".EasyPronounce"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jrbermzkie.pronunciation.PronunciationmadeeasyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SPEECH"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jrbermzkie.pronunciation.SPEECH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CONTENT"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jrbermzkie.pronunciation.CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WORD"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jrbermzkie.pronunciation.WORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".LIST"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jrbermzkie.pronunciation.LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TUTORIAL"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="jrbermzkie.pronunciation.TUTORIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>

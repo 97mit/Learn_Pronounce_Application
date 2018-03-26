@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/start"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"/>
+    
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/btnTutorial"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/tutorial"/>
+    
+</LinearLayout>
+    
+    
+    
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/btnWord"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/text"/>
+    
+</LinearLayout>
+    
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/Start"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/words"/>
+    
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+
+<ImageButton
+    android:id="@+id/AboutUs"
+    android:layout_width="250dp"
+    android:background="@drawable/aboutus"
+    android:layout_height="70dp"/>
+
+</LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/exit"/>
+    
+</LinearLayout>
+
+</LinearLayout>
